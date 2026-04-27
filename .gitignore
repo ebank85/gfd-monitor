@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# .NET
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+*.csproj.user
+*.vbproj.user
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Rider
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Application
+logs/
+*.log
+config.local.json
+data/
+temp/
+*.db
+*.sqlite
+*.csv
+!docs/example_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# NuGet
+.nuget/
+packages/
+.nupkg
+
+# Node (if using npm for frontend tools)
+node_modules/
+npm-debug.log
+yarn-error.log

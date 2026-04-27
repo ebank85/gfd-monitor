@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>GFD.Monitor.Core</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <Option Explicit="On" />
+    <Option Compare="Binary" />
+    <Option Strict="On" />
+    <Option Infer="On" />
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="CsvHelper" Version="30.0.0" />
+  </ItemGroup>
+
+</Project>
